@@ -16,6 +16,20 @@ $buah2an = [$b1, $b2, $b3, $b4, $b5];
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
 </head>
 <body>
   <table>
@@ -25,6 +39,7 @@ $buah2an = [$b1, $b2, $b3, $b4, $b5];
         <th>Kode</th>
         <th>Buah</th>
         <th>Harga</th>
+      </tr>
     </thead>
     <tbody>
       <?php
